@@ -46,10 +46,12 @@ class LinkedList{
 
 const list = new LinkedList()
 
-list.append(5)
+//list.append(5)
 /* list.append(6)
 list.append(7)
 list.append(8) */
 list.prepend(3)
+list.prepend(5)
+list.prepend(6)
 
 console.log(list.arrayForm())
